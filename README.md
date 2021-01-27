@@ -1,5 +1,3 @@
 # holberton-system_engineering-devops
 
-0-current_working_directory
-
-1-listit
+This directory contains the project 0x00-shell_basics
