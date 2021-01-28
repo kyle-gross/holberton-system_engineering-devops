@@ -13,6 +13,11 @@ This directory contains files for the 0x00-shell_basics project.
 8-firstdelete		    - deletes the file "betty" from /tmp/holberton
 9-firstdeletion		    - deletes the directory /tmp/holberton
 10-back			    - changes working directory to the previous one
-11-lists		    - lists all files (including hidden files) in current directory, parent directory, 
-			      and /boot directory in long format
-12-file_type		    - 
+11-lists		    - lists all files (including hidden files) in current directory, parent directory,				    and /boot directory in long format
+12-file_type		    - prints file type of "iamafile" in the /tmp directory
+13-symbolic_link	    - creates a symbolic link to /bin/ls named "__ls__"
+14-copy_html		    - copies files with .html extensions to parent directory
+15-lets_move		    - moves all files beginning with an uppercase to /tmp/u
+16-clean_emacs		    - deletes all files that end with "~"
+17-tree			    - creates directory tree: /welcome/to/holberton
+18-commas		    - lists all files in current directory separated by commas
