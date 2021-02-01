@@ -1,2 +1,2 @@
 #!/bin/bash
-ls -ap | grep -c /
+ls -ap . | grep -c /
