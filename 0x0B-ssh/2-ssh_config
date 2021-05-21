@@ -1,0 +1,4 @@
+PasswordAuthentication no
+
+Host web01
+IdentityFile ~/.ssh/web01
