@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-# Using the until loop
+# Displays Holberton School 10 times using a while loop
 
 i=0
 until [ $i -gt 10 ]
