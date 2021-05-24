@@ -1,0 +1,21 @@
+#!/usr/bin/env bash
+# Bash script which writes Holberton School.
+# On 4th iteration bad luck.
+# On 8th iteration good luck.
+
+i=1
+while [ $i -lt 21 ]
+do
+    echo "$i"
+    if [[ "$i" == 4 ]];
+    then
+        echo bad luck from China
+    elif [[ "$i" == 9 ]];
+    then
+        echo bad luck from Japan
+    elif [[ "$i" == 17 ]];
+    then
+        echo bad luck from Italy
+    fi
+    ((i++))
+done
