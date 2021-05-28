@@ -3,7 +3,7 @@
 # Fizz when multiple of 3
 # Buzz when multiple of 5
 # FizzBuzz when multiple of 3 and 5
-i=1
+
 for ((i=1; i<101; i+=1))
 do
     if (( i % 3 == 0 && i % 5 == 0 ))
