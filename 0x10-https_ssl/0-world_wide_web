@@ -11,7 +11,7 @@ if [ $# -eq 1 ]
 then
     # Print all subdomains
     diggy $1 www
-    diggy $1 lib-01
+    diggy $1 lb-01
     diggy $1 web-01
     diggy $1 web-02
 elif [ $# -eq 2 ]
