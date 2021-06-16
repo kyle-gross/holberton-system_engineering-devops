@@ -6,7 +6,7 @@ from sys import argv
 
 if __name__ == "__main__":
 
-    completed_count = 0
+    count = 0
     task_list = []
 
     user = requests.get('https://jsonplaceholder.typicode.com/users/{}'
@@ -19,11 +19,11 @@ if __name__ == "__main__":
 
     for task in tasks:
         if task.get('completed') is True:
-            completed_count += 1
-        task_list.append(task.get('title'))
+            count += 1
+            task_list.append(task.get('title'))
 
     print('Employee {} is done with tasks({}/{}):'
-          .format(name, completed_count, len(tasks)))
+          .format(name, count, len(tasks)))
 
     for task in task_list:
         print('\t {}'.format(task))
