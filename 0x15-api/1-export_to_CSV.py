@@ -26,7 +26,7 @@ if __name__ == "__main__":
 
         all_tasks.append(task_row)
 
-    filename = '2.csv'
+    filename = '{}.csv'.format(argv[1])
 
     with open(filename, 'w') as csvfile:
         csvwriter = csv.writer(csvfile, quoting=csv.QUOTE_ALL)
