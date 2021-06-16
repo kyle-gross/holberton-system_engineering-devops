@@ -23,7 +23,7 @@ if __name__ == "__main__":
         task_row.append(name)
         task_row.append(task.get('completed'))
         task_row.append(task.get('title'))
-
+        # Append row to all_task list
         all_tasks.append(task_row)
 
     filename = '{}.csv'.format(argv[1])
