@@ -8,7 +8,8 @@ from sys import argv
 if __name__ == "__main__":
 
     user_url = 'https://jsonplaceholder.typicode.com/users/{}'.format(argv[1])
-    todo_url = 'https://jsonplaceholder.typicode.com/users/{}/todos'.format(argv[1])
+    todo_url = 'https://jsonplaceholder.typicode.com/users/{}/todos'\
+               .format(argv[1])
     user_dict = {}
 
     user = requests.get(user_url)
@@ -25,7 +26,6 @@ if __name__ == "__main__":
         task_dict['username'] = name
         task_dict['completed'] = task.get('completed')
         user_dict[argv[1]].append(task_dict)
-
 
     filename = '{}.json'.format(argv[1])
 
