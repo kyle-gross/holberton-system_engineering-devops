@@ -14,7 +14,7 @@ if __name__ == "__main__":
     todo = requests.get('https://jsonplaceholder.typicode.com/users/{}/todos'
                         .format(argv[1]))
 
-    name = user.json().get('name')
+    name = user.json().get('username')
     tasks = todo.json()
 
     for task in tasks:
