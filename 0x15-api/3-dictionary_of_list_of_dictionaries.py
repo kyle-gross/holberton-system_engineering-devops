@@ -6,7 +6,7 @@ if __name__ == "__main__":
     import json
     import requests
 
-    user_url = 'https://jsonplaceholder.typicode.com/users/'
+    user_url = 'https://jsonplaceholder.typicode.com/users'
     todo_url = 'https://jsonplaceholder.typicode.com/todos'
 
     users = requests.get(user_url).json()
