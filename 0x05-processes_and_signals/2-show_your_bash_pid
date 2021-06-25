@@ -1,0 +1,4 @@
+#!/usr/bin/env bash
+# Shows bash pid
+# shellshceck disable=SC2009
+ps -auxf | grep 'bash'
